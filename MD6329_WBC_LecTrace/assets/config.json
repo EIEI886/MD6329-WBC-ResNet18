@@ -1,0 +1,42 @@
+{
+  "dataset": "BloodMNIST+ four-class subset",
+  "data_size": 64,
+  "input_size": 224,
+  "seeds": [
+    42,
+    2026
+  ],
+  "max_epochs": 8,
+  "patience": 3,
+  "batch_size": 64,
+  "classes": [
+    "eosinophil",
+    "lymphocyte",
+    "monocyte",
+    "neutrophil"
+  ],
+  "experiments": {
+    "A_frozen_aug": {
+      "finetune": false,
+      "augment": true
+    },
+    "B_layer4_aug": {
+      "finetune": true,
+      "augment": true
+    },
+    "C_layer4_noaug": {
+      "finetune": true,
+      "augment": false
+    }
+  },
+  "head_lr": 0.001,
+  "backbone_lr": 0.0001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "selection": "maximum validation macro-F1; earliest epoch breaks ties",
+  "split": "official image-level split filtered by exact hash; train > val > test; conflicting labels excluded",
+  "augmentation": "horizontal/vertical flips p=0.5; rotation +/-15 degrees",
+  "frozen_batchnorm": "running statistics fixed outside unfrozen layer4",
+  "source": "https://medmnist.com/",
+  "source_pbc": "https://data.mendeley.com/datasets/snkd93bnjr/1"
+}

@@ -1,0 +1,9 @@
+{
+  "selected_experiment": "C_layer4_noaug",
+  "rule": "highest mean validation macro-F1 across specified seeds; ties alphabetical",
+  "validation_scores": {
+    "C_layer4_noaug": 0.9977231974263228,
+    "B_layer4_aug": 0.9967715149793609,
+    "A_frozen_aug": 0.953483070124768
+  }
+}

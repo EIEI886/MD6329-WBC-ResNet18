@@ -1,0 +1,12 @@
+{
+  "version": "2",
+  "traces": [
+    {
+      "id": "01_wbc_lectrace",
+      "title": "How a ResNet18 classifies a blood cell",
+      "path": "traces/01_wbc_lectrace.json",
+      "step_count": 71,
+      "built_at": "2026-10-23T15:42:46.871848+00:00"
+    }
+  ]
+}

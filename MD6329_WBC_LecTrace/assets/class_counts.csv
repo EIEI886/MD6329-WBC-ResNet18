@@ -1,0 +1,5 @@
+class_name,train,val,test
+eosinophil,2178,310,622
+lymphocyte,849,122,243
+monocyte,992,143,284
+neutrophil,2330,333,665

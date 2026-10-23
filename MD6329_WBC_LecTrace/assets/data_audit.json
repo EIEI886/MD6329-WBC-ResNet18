@@ -1,0 +1,12 @@
+{
+  "exact_cross_split_hashes": 0,
+  "exact_duplicate_rows_within_or_across": 8,
+  "patient_ids_available": false,
+  "near_duplicate_audit": false,
+  "limitation": "Image-level evaluation only. Exact hashes do not establish patient independence.",
+  "exact_cross_split_hashes_before": 5,
+  "removed_rows": 9,
+  "conflicting_label_hashes": 1,
+  "split_policy": "Official image-level split filtered by exact hash; train > val > test; conflicting labels removed in all splits.",
+  "evaluation_limitation": "Modified four-class image-level benchmark, not the unmodified official benchmark. Near duplicates and patient overlap remain unverified."
+}
