@@ -1,0 +1,182 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MSc AI In Medicine 2026/27 Timetable//Generated ICS//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MSc AI In Medicine Trimester2 2026/27 (Updated 10 Nov)
+X-WR-TIMEZONE:Asia/Singapore
+BEGIN:VTIMEZONE
+TZID:Asia/Singapore
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:SGT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:md6119-w1-20261110@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261110T100000
+DTEND;TZID=Asia/Singapore:20261110T110000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:HQ Lecture Theatre
+DESCRIPTION:Mode: In-person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6205-w1-20261113@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261113T140000
+DTEND;TZID=Asia/Singapore:20261113T170000
+SUMMARY:MD6205 AI Product Translation and Clinical Integration
+LOCATION:Online
+DESCRIPTION:Mode: In-person\nModule Code: MD6205
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6330-w2-20261112@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261112T090000
+DTEND;TZID=Asia/Singapore:20261112T100000
+SUMMARY:MD6330 Practical Healthcare AI Ethics
+LOCATION:Online
+DESCRIPTION:Mode: In-person\nModule Code: MD6330
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6205-w2-20261120@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261120T143000
+DTEND;TZID=Asia/Singapore:20261120T173000
+SUMMARY:MD6205 AI Product Translation and Clinical Integration
+LOCATION:Online
+DESCRIPTION:Mode: In-person\nModule Code: MD6205
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6330-w3a-20261124@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261124T090000
+DTEND;TZID=Asia/Singapore:20261124T130000
+SUMMARY:MD6330 Practical Healthcare AI Ethics
+LOCATION:HQ Seminar Room
+DESCRIPTION:Mode: In‑person\nModule Code: MD6330
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w3b-20261124@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261124T150000
+DTEND;TZID=Asia/Singapore:20261124T170000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:HQ Lecture Theatre
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6330-w3c-20261126@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261126T080000
+DTEND;TZID=Asia/Singapore:20261126T100000
+SUMMARY:MD6330 Practical Healthcare AI Ethics
+LOCATION:CSB Learning Studio (Level 5)
+DESCRIPTION:Mode: In‑person\nModule Code: MD6330
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6205-w3-20261127@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261127T143000
+DTEND;TZID=Asia/Singapore:20261127T173000
+SUMMARY:MD6205 AI Product Translation and Clinical Integration
+LOCATION:Online
+DESCRIPTION:Mode: In‑person\nModule Code: MD6205
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w4-20261130@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261130T100000
+DTEND;TZID=Asia/Singapore:20261130T110000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:CSB Learning Studio
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w5-20261210@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20261210T100000
+DTEND;TZID=Asia/Singapore:20261210T120000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:CSB Seminar Room 7‑1
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w7a-20270105@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270105T100000
+DTEND;TZID=Asia/Singapore:20270105T120000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:CSB Seminar Room 7‑2
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6205-w7b-20270105@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270105T140000
+DTEND;TZID=Asia/Singapore:20270105T170000
+SUMMARY:MD6205 AI Product Translation and Clinical Integration
+LOCATION:CSB Seminar Room 7‑2
+DESCRIPTION:Mode: In‑person\nModule Code: MD6205
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w8a-20270111@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270111T140000
+DTEND;TZID=Asia/Singapore:20270111T150000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:HQ Lecture Theatre
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6205-w8b-20270114@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270114T140000
+DTEND;TZID=Asia/Singapore:20270114T170000
+SUMMARY:MD6205 AI Product Translation and Clinical Integration
+LOCATION:CSB Seminar Room 7‑2
+DESCRIPTION:Mode: In‑person\nModule Code: MD6205
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w9-20270118@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270118T100000
+DTEND;TZID=Asia/Singapore:20270118T120000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:CSB Seminar Room 7‑2
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6330-w10a-20270126@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270126T090000
+DTEND;TZID=Asia/Singapore:20270126T120000
+SUMMARY:MD6330 Practical Healthcare AI Ethics
+LOCATION:CSB Flexispace (Level 20)
+DESCRIPTION:Mode: In‑person\nModule Code: MD6330
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6330-w10b-20270126@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270126T140000
+DTEND;TZID=Asia/Singapore:20270126T170000
+SUMMARY:MD6330 Practical Healthcare AI Ethics
+LOCATION:CSB Flexispace (Level 20)
+DESCRIPTION:Mode: In‑person\nModule Code: MD6330
+END:VEVENT
+
+BEGIN:VEVENT
+UID:md6119-w10c-20270129@aimedicine.local
+DTSTART;TZID=Asia/Singapore:20270129T100000
+DTEND;TZID=Asia/Singapore:20270129T120000
+SUMMARY:MD6119 Introduction to Clinical Medicine and Disease Mechanisms
+LOCATION:HQ Seminar Room
+DESCRIPTION:Mode: In‑person\nModule Code: MD6119
+END:VEVENT
+
+
+
+END:VCALENDAR
